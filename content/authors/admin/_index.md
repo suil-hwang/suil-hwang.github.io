@@ -36,8 +36,10 @@ interests:
 education:
   courses:
     - course: BSc in Applied Physics
+      institution: Hanyang University ERICA
+      year: 2025
     - course: BSc in Computer Science
-      institution: Hanyang University
+      institution: Hanyang University ERICA (Double major)
       year: 2025
 
 # Skills
