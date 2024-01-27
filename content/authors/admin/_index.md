@@ -35,7 +35,8 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: BSc in Applied Physics & Computer Science
+    - course: BSc in Applied Physics
+    BSc in Computer Science
       institution: Hanyang University
       year: 2025
 
