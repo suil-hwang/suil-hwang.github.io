@@ -36,7 +36,7 @@ interests:
 education:
   courses:
     - course: BSc in Applied Physics
-    BSc in Computer Science
+    - course: BSc in Computer Science
       institution: Hanyang University
       year: 2025
 
