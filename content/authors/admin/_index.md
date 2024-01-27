@@ -3,7 +3,7 @@
 title: 황수일
 
 # Name pronunciation (optional)
-Suil Hwang
+name_pronunciation: Suil Hwang
 
 # Full name (for SEO)
 first_name: Suil
