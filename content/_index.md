@@ -45,7 +45,7 @@ sections:
   - block: skills
     content:
       title: Skills
-      text: ''
+      text: 'C++'
       # Choose a user to display skills from (a folder name within `content/authors/`)
       username: admin
     design:
