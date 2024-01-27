@@ -182,8 +182,7 @@ sections:
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
       email: av600md@gmail.com
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      phone: +82 10-9818-2383
       address:
         street: 450 Serra Mall
         city: Stanford
@@ -194,7 +193,6 @@ sections:
       directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       office_hours:
         - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
         latitude: '37.4275'
