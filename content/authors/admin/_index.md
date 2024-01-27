@@ -42,6 +42,27 @@ education:
       institution: Hanyang University ERICA (Double major)
       year: 2025
 
+# Skills
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+skills:
+  - name: Technical
+    items:
+      - name: C++
+        description: ''
+        percent: 80
+        icon: cpp
+        icon_pack: fab
+      - name: OpenGL
+        description: ''
+        percent: 100
+        icon: opengl
+        icon_pack: fas
+      - name: SQL
+        description: ''
+        percent: 40
+        icon: database
+        icon_pack: fas
+
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
