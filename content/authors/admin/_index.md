@@ -51,17 +51,13 @@ skills:
         description: ''
         percent: 80
         icon: cpp
-        icon_pack: fab
+        icon_pack: custom
       - name: OpenGL
         description: ''
         percent: 100
         icon: opengl
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
+        icon_pack: custom
+
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
