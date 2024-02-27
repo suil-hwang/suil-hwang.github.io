@@ -185,15 +185,15 @@ sections:
       email: av600md@gmail.com
       phone: +82 10-9818-2383
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+        street: 55, Hanyangdaehak-ro
+        city: Ansan-si
+        region: Gyeonggi-do
+        postcode: '15588'
+        country: Republic of Korea
+        country_code: KR
+      directions: Engineering Building Ⅳ and take the stairs to Office 318 on Floor 3
       office_hours:
-        - 'Monday 10:00 to 13:00'
+        - 'Friday 9:00 to 12:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
         latitude: '126.83620257875059'
