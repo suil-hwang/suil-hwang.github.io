@@ -35,10 +35,10 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: BSc in Applied Physics
+    - course: B.S. in Applied Physics
       institution: Hanyang University ERICA
       year: 2025
-    - course: BSc in Computer Science
+    - course: B.S. in Computer Science
       institution: Hanyang University ERICA (Double major)
       year: 2025
 
