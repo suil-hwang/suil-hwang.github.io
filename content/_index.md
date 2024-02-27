@@ -186,8 +186,8 @@ sections:
         country: Republic of Korea
         country_code: KR
       directions: Engineering Building Ⅳ and take the stairs to Office 318 on Floor 3
-      office_hours:
-        - 'Friday 9:00 to 12:00'
+      # office_hours:
+      #  - 'Friday 9:00 to 12:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
         latitude: '37.296916985886874'
