@@ -29,8 +29,8 @@ bio: My research interest is geometry processing.
 
 # Interests to show in About widget
 interests:
-  - Computer Graphics
-  - Geometry Processing
+  - 3D Reconstruction
+  - Gaussian Splatting
 
 # Education to show in About widget
 education:
@@ -52,6 +52,11 @@ skills:
         percent: 80
         icon: cpp
         icon_pack: custom
+      - name: Python
+        description: ''
+        percent: 80
+        icon: cpp
+        icon_pack: custom 
       - name: OpenGL
         description: ''
         percent: 100
@@ -94,5 +99,5 @@ highlight_name: true
 ---
 
 Hi, My name is Suil Hwang.
-I have interested in Computer Grphics, especially Geometry Processing.
+I am interested in Computer Graphics.
 {style="text-align: justify;"}
