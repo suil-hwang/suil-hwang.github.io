@@ -6,8 +6,8 @@ title: Suil Hwang
 name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Suil
+last_name: Hwang
 
 # Status emoji
 status:
@@ -24,7 +24,7 @@ role: Master Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
+  - name: Hanyang University 
     url: https://openai.com/
 
 # Social network links
