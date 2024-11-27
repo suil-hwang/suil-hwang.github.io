@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 吳健雄
+title: Suil Hwang
 
 # Name pronunciation (optional)
 name_pronunciation: Chien Shiung Wu
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Master Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
