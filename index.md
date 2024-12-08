@@ -3,6 +3,8 @@ layout: homepage
 ---
 
 ## About Me
+Hello! I’m Suil Hwang, a Master’s student at Hanyang University under the supervision of Professor Q Youn Hong.
+My research interests are computer graphics and 3D vision.
 
 I am a Ph.D. student at ...
 
