@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 ## About Me
-I’m a Master’s student in CSE at Hanyang University under the supervision of Professor Q Youn Hong.
+I’m a Master's student in CSE at [Hanyang University](https://www.hanyang.ac.kr/), advised by Q Youn Hong.
 My research interests are computer graphics and 3D vision.
 
 ## Research Interests
