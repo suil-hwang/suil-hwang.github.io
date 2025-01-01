@@ -8,7 +8,7 @@ I am a Master's student in Computer Science and Engineering at Hanyang Universit
 
 ## News
 
-- **[Feb. 2020]** I Started Master's Progam at Hanyang University. (Advisor: Prof. Q Youn Hong)
+- **[Feb. 2025]** I Started Master's Progam at Hanyang University. (Advisor: Prof. Q Youn Hong)
 
 <!-- {% include_relative _includes/publications.md %} -->
 
