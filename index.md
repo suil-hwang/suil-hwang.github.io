@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am a Master's student in Computer Science and Engineering at Hanyang University, advised by Q Youn Hong. My research interests include Computer Graphics and Geometry Processing.
 
 ## Research Interests
 
