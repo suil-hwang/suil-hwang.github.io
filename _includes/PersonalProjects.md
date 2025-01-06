@@ -21,9 +21,10 @@
       </div>
       <div class="description" style="font-size: 14px; color: #555; margin-bottom: 10px;">{{ link.description }}</div>
       <div class="links">
-        {% if link.github %} 
-        <a href="{{ link.github }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size: 12px; color: white; background-color: #007bff; border: none; border-radius: 3px; padding: 5px 10px;">GitHub</a>
-        {% endif %}
+      {% if link.code %} 
+      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">
+      Code</a>
+      {% endif %}
       </div>
   </div>
 </div>
