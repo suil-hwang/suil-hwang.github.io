@@ -22,7 +22,7 @@
       </div>
       <div class="description" style="font-size: 14px; color: #ffffff; margin-bottom: 10px;">{{ link.description }}</div>
       <!-- 버튼 섹션 -->
-      <div class="links" style="margin-top: 10px; display: flex; gap: 10px;">
+      <div class="links" style="margin-top: 10px; display: flex; gap: 10px; background-color: transparent; border: none; padding: 0;">
         {% if link.pdf %} 
         <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; color: #ffffff; border: 1px solid #ffffff; padding: 5px 10px; border-radius: 4px; text-decoration: none; background-color: transparent;">PDF</a>
         {% endif %}
