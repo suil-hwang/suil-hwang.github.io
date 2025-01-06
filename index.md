@@ -12,7 +12,7 @@ I am a Master's student in [Computer Science and Engineering](http://cse.hanyang
 
 <!-- {% include_relative _includes/publications.md %} -->
 
-<!-- {% include_relative _includes/PersonalProjects.md %} -->
+{% include_relative _includes/PersonalProjects.md %}
 
 <!-- {% include_relative _includes/services.md %} -->
 
