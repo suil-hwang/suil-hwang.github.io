@@ -5,8 +5,9 @@
 
 {% for link in site.data.PersonalProjects.main %}
 
-<li>
-<div class="pub-row">
+<li style="margin-bottom: 20px; padding: 15px; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 8px; background-color: #f9f9f9; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);">
+<div class="pub-row" style="display: flex; align-items: flex-start;">
+  
   <!-- 이미지 섹션 -->
   <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
     {% if link.image %} 
@@ -21,15 +22,13 @@
       </div>
       <div class="description" style="font-size: 14px; color: #555; margin-bottom: 10px;">{{ link.description }}</div>
       <div class="links">
-        {% if link.code %} 
-        <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">
-        Code</a>
+        {% if link.github %} 
+        <a href="{{ link.github }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size: 12px; color: white; background-color: #007bff; border: none; border-radius: 3px; padding: 5px 10px;">GitHub</a>
         {% endif %}
       </div>
   </div>
 </div>
 </li>
-<br>
 
 {% endfor %}
 
