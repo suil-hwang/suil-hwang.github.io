@@ -22,18 +22,18 @@
       </div>
       <div class="description" style="font-size: 14px; color: #ffffff; margin-bottom: 10px;">{{ link.description }}</div>
       <!-- 버튼 섹션 -->
-      <div class="links">
+      <div class="links" style="margin-top: 10px; display: flex; gap: 10px;">
         {% if link.pdf %} 
-        <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; color: #ffffff; border: 1px solid #ffffff; padding: 5px 10px; border-radius: 4px; text-decoration: none; margin-right: 5px;">PDF</a>
+        <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; color: #ffffff; border: 1px solid #ffffff; padding: 5px 10px; border-radius: 4px; text-decoration: none; background-color: transparent;">PDF</a>
         {% endif %}
         {% if link.code %} 
-        <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; color: #ffffff; border: 1px solid #ffffff; padding: 5px 10px; border-radius: 4px; text-decoration: none; margin-right: 5px;">Code</a>
+        <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; color: #ffffff; border: 1px solid #ffffff; padding: 5px 10px; border-radius: 4px; text-decoration: none; background-color: transparent;">Code</a>
         {% endif %}
         {% if link.page %} 
-        <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; color: #ffffff; border: 1px solid #ffffff; padding: 5px 10px; border-radius: 4px; text-decoration: none; margin-right: 5px;">Project Page</a>
+        <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; color: #ffffff; border: 1px solid #ffffff; padding: 5px 10px; border-radius: 4px; text-decoration: none; background-color: transparent;">Project Page</a>
         {% endif %}
         {% if link.bibtex %} 
-        <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; color: #ffffff; border: 1px solid #ffffff; padding: 5px 10px; border-radius: 4px; text-decoration: none; margin-right: 5px;">BibTex</a>
+        <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; color: #ffffff; border: 1px solid #ffffff; padding: 5px 10px; border-radius: 4px; text-decoration: none; background-color: transparent;">BibTex</a>
         {% endif %}
         {% if link.notes %} 
         <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
