@@ -21,6 +21,18 @@
         <a href="{{ link.code }}" style="text-decoration: none;">{{ link.title }}</a>
       </div>
       <div class="description" style="font-size: 14px; color: #ffffff;">{{ link.description }}</div>
+      <!-- 버튼 섹션 -->
+      <div class="links" style="margin-top: 10px;">
+        {% if link.pdf %} 
+        <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+        {% endif %}
+        {% if link.code %} 
+        <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+        {% endif %}
+        {% if link.bibtex %} 
+        <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+        {% endif %}
+      </div>
   </div>
 
 </div>
