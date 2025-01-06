@@ -1,9 +1,6 @@
 main:
 
-  - title: "AI-Powered Portfolio Website"
-    authors: <strong>Yaoyao Liu</strong>, <strong>Collaborators</strong>
-    description: A fully dynamic portfolio website integrated with AI for generating personalized content recommendations.
+  - title: "Interactive Keypoint and ICP-based Registration for 3D Gaussian Splatting"
+    description: Pre-trained 3D Gaussian Splatting scenes A and B are aligned using interactive keypoint selection, SVD for initial transformation, and iterative ICP with adaptive thresholds for precise registration and merging.
     github: https://github.com/yaoyao-liu/ai-portfolio
-    live_demo: https://yaoyaoliu.me/
-    notes: Continuously updated with new features
     image: ./assets/img/portfolio_example.png
