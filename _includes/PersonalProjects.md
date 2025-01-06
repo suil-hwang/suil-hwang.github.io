@@ -5,7 +5,7 @@
 
 {% for link in site.data.PersonalProjects.main %}
 
-<li style="margin-bottom: 20px; padding: 15px; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05); background-color: transparent;">
+<li style="margin-bottom: 20px; padding: 15px; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05); background-color: transparent;">
 <div class="pub-row" style="display: flex; align-items: center;">
 
   <!-- 이미지 섹션 -->
@@ -21,27 +21,6 @@
         <a href="{{ link.code }}" style="text-decoration: none;">{{ link.title }}</a>
       </div>
       <div class="description" style="font-size: 14px; color: #ffffff;">{{ link.description }}</div>
-      <!-- 버튼 섹션 -->
-      <div class="links" style="margin-top: 10px; display: flex; gap: 10px;">
-        {% if link.pdf %} 
-        <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; color: #ffffff; border: 1px solid #ffffff; background-color: transparent; padding: 5px 10px; border-radius: 4px; text-decoration: none;">PDF</a>
-        {% endif %}
-        {% if link.code %} 
-        <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; color: #ffffff; border: 1px solid #ffffff; background-color: transparent; padding: 5px 10px; border-radius: 4px; text-decoration: none;">Code</a>
-        {% endif %}
-        {% if link.page %} 
-        <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; color: #ffffff; border: 1px solid #ffffff; background-color: transparent; padding: 5px 10px; border-radius: 4px; text-decoration: none;">Project Page</a>
-        {% endif %}
-        {% if link.bibtex %} 
-        <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; color: #ffffff; border: 1px solid #ffffff; background-color: transparent; padding: 5px 10px; border-radius: 4px; text-decoration: none;">BibTex</a>
-        {% endif %}
-        {% if link.notes %} 
-        <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-        {% endif %}
-        {% if link.others %} 
-        {{ link.others }}
-        {% endif %}
-      </div>
   </div>
 
 </div>
