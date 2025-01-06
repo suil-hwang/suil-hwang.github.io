@@ -5,7 +5,7 @@
 
 {% for link in site.data.PersonalProjects.main %}
 
-<li style="margin-bottom: 20px; padding: 15px; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 8px; background-color: #ffffff; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05); max-width: 800px; margin-left: auto; margin-right: auto;">
+<li style="margin-bottom: 20px; padding: 15px; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05); background-color: transparent;">
 <div class="pub-row" style="display: flex; align-items: center;">
 
   <!-- 이미지 섹션 -->
