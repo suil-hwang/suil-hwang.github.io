@@ -1,0 +1,9 @@
+main:
+
+  - title: "AI-Powered Portfolio Website"
+    authors: <strong>Yaoyao Liu</strong>, <strong>Collaborators</strong>
+    description: A fully dynamic portfolio website integrated with AI for generating personalized content recommendations.
+    github: https://github.com/yaoyao-liu/ai-portfolio
+    live_demo: https://yaoyaoliu.me/
+    notes: Continuously updated with new features
+    image: ./assets/img/portfolio_example.png
