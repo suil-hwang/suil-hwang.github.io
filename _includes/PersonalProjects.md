@@ -5,28 +5,24 @@
 
 {% for link in site.data.PersonalProjects.main %}
 
-<li style="margin-bottom: 20px; padding: 15px; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 8px; background-color: #f9f9f9; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);">
-<div class="pub-row" style="display: flex; align-items: flex-start;">
-  
+<li style="margin-bottom: 20px; padding: 15px; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 8px; background-color: #ffffff; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05); max-width: 800px; margin-left: auto; margin-right: auto;">
+<div class="pub-row" style="display: flex; align-items: center;">
+
   <!-- 이미지 섹션 -->
-  <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
+  <div class="col-sm-3 abbr" style="flex: 0 0 150px; margin-right: 15px;">
     {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100%; max-width: 200px; height: auto; border-radius: 5px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100%; max-width: 150px; height: auto; border-radius: 5px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
     {% endif %}
   </div>
   
   <!-- 텍스트 섹션 -->
-  <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
+  <div class="col-sm-9" style="flex: 1;">
       <div class="title" style="font-weight: bold; font-size: 18px; color: #007bff; margin-bottom: 5px;">
         <a href="{{ link.github }}" style="text-decoration: none;">{{ link.title }}</a>
       </div>
-      <div class="description" style="font-size: 14px; color: #555; margin-bottom: 10px;">{{ link.description }}</div>
-      <div class="links">
-        {% if link.github %} 
-        <a href="{{ link.github }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size: 12px; color: white; background-color: #007bff; border: none; border-radius: 3px; padding: 5px 10px;">GitHub</a>
-        {% endif %}
-      </div>
+      <div class="description" style="font-size: 14px; color: #555;">{{ link.description }}</div>
   </div>
+
 </div>
 </li>
 
