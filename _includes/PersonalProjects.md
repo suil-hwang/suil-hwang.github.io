@@ -20,7 +20,7 @@
       <div class="title" style="font-weight: bold; font-size: 18px; color: #007bff; margin-bottom: 5px;">
         <a href="{{ link.github }}" style="text-decoration: none;">{{ link.title }}</a>
       </div>
-      <div class="description" style="font-size: 14px; color: #555;">{{ link.description }}</div>
+      <div class="description" style="font-size: 14px; color: #ffffff;">{{ link.description }}</div>
   </div>
 
 </div>
