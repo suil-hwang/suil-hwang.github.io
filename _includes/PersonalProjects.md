@@ -7,10 +7,12 @@
 
 <li>
 <div class="pub-row">
-  <!-- 이미지 섹션 -->
-  <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100%; max-width: 200px; height: auto; border-radius: 5px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    {% if link.conference_short %} 
+    <abbr class="badge">{{ link.conference_short }}</abbr>
+    {% endif %}
     {% endif %}
   </div>
   
