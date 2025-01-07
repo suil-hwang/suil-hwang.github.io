@@ -52,21 +52,12 @@ interests:
   - 3D Vision
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
   - area: MSc Computer Science & Engineering
     institution: Hanyang Universityy
-    date_start: 2016-01-01
+    date_start: 2025-01-01
     date_end: 2020-12-31
     summary: |
-      GPA: 3.8/4.0
+      GPA: 3.8/4.0. Supervised by Q Youn Hong. 
 
   - area: BSc Applied Physics & Computer Science
     institution: Hanyang University ERICA
