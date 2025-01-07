@@ -59,7 +59,7 @@ education:
     summary: |
       GPA: 3.8/4.0. Supervised by Q Youn Hong. 
 
-  - area: BSc Applied Physics & Computer Science
+  - area: BSc Applied Physics and Computer Science
     institution: Hanyang University ERICA
     date_start: 2021-03-01
     date_end: 2025-02-20
