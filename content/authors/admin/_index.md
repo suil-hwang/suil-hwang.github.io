@@ -57,7 +57,7 @@ education:
   - area: BSc Applied Physics and Computer Science
     institution: Hanyang University ERICA
     date_start: 2021-03-01
-    date_end: 2025-02-20
+    date_end: 
     summary: |
       GPA: 3.73/4.5
     
