@@ -1,9 +1,4 @@
 ---
-# Display name
-title: Suil Hwang
-
-# Name pronunciation (optional)
-# name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
 first_name: Suil
@@ -67,19 +62,19 @@ education:
       GPA: 3.73/4.5
     
 
- work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
+ #work:
+ # - position: Director of Cloud Infrastructure
+ #   company_name: GenCoin
+ #   company_url: ''
+ #   company_logo: ''
+ #   date_start: 2021-01-01
+ #   date_end: ''
+ #   summary: |2-
+ #     Responsibilities include:
+ #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+ #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+ #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+---
 
 
 ## About Me
