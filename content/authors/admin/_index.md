@@ -20,36 +20,36 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Master's Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Hanyang University
+    url: https://www.hanyang.ac.kr/web/eng
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'av600md@gmail.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+    url: https://twitter.com/suil_hwang
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/suil_hwang
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/suil-hwang
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/suilhwang
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
   - icon: academicons/orcid
     url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Computer Graphics
+  - Geometry Processing
+  - 3D Vision
 
 education:
   - area: PhD Artificial Intelligence
@@ -72,17 +72,13 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: BSc Applied Physics & Computer Science
+    institution: Hanyang University
+    date_start: 2021-03-01
+    date_end: 2025-02-20
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      GPA: 3.73/4.5
+
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
