@@ -82,14 +82,6 @@ education:
 
 
 
-
-
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-
-
 ## About Me
 
 I am a Master's student in Computer Science and Engineering at Hanyang University, advised by Q Youn Hong. My research interests include Computer Graphics and Geometry Processing.
