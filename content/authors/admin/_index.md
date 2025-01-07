@@ -62,7 +62,7 @@ education:
       GPA: 3.73/4.5
     
 
- #work:
+ # work:
  # - position: Director of Cloud Infrastructure
  #   company_name: GenCoin
  #   company_url: ''
