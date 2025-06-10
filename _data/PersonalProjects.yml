@@ -1,6 +1,6 @@
 main:
 
-  - title: "KeyGS: Keypoint-Guided Registration for 3D Gaussian Splatting"
+  - title: "GS-Reg: Interactive Registration for 3D Gaussian Splatting"
     description: Merges multiple 3D Gaussian Splatting scenes through interactive keypoint selection followed by alignment using SVD and adaptive ICP.
-    code: https://github.com/suil-hwang/KeyGS
+    code: https://github.com/suil-hwang/gs-reg
     image: ./assets/img/3DGS_Registration.png
