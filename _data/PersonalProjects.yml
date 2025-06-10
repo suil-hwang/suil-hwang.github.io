@@ -1,6 +1,6 @@
 main:
 
-  - title: "Interactive Keypoint and ICP-based Registration for 3D Gaussian Splatting"
-    description: Pre-trained 3D Gaussian Splatting scenes A and B are aligned using interactive keypoint selection, SVD for initial transformation, and iterative ICP with adaptive thresholds for precise registration and merging.
-    code: https://github.com/suil-hwang/GS-Registration
+  - title: "KeyGS: Keypoint-Guided Registration for 3D Gaussian Splatting"
+    description: Merges multiple 3D Gaussian Splatting scenes through interactive keypoint selection followed by alignment using SVD and adaptive ICP.
+    code: https://github.com/suil-hwang/KeyGS
     image: ./assets/img/3DGS_Registration.png
