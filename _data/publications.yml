@@ -6,6 +6,6 @@ main:
     conference: The 21th International Conference on Multimedia Information Technology and Applications <strong>(MITA)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2306.00988.pdf
     code: https://github.com/suil-hwang/island-preserving-uv-transfer
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+    #bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/Island-Preserving-UV-Transfer.png
     notes: Submitted
