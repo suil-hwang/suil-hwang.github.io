@@ -15,7 +15,7 @@ My research interests include Computer Graphics and Geometry Processing.
 
 ## News
 
-- **[Mar. 2025]** I Started Master's Progam at Hanyang University. (Advisor: Prof. Q Youn Hong)
+- **[Mar. 2025]** I Started Master's Program at Hanyang University. (Advisor: Prof. Q Youn Hong)
 
 {% include_relative _includes/publications.md %}
 
