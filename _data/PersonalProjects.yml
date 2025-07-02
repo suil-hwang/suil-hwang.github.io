@@ -1,5 +1,4 @@
 main:
-
   - title: "GS-Reg: Interactive Registration for 3D Gaussian Splatting"
     description: Merge multiple 3D Gaussian Splatting scenes with interactive keypoint alignment and ICP.
     code: https://github.com/suil-hwang/GS-Reg
