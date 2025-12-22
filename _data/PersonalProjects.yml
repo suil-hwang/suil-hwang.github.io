@@ -3,3 +3,7 @@ main:
     description: Merge multiple 3D Gaussian Splatting scenes with interactive keypoint alignment and ICP.
     code: https://github.com/suil-hwang/GS-Reg
     image: ./assets/img/GS-Reg.png
+  - title: "Neural A\* with Heat Method: Geometric Guidance for Path Planning"
+    description: "Path planning framework enhancing Neural A* with Heat Method-based Geodesic Supervision and Geometric Losses. (AIC6051, Hanyang Univ.)"
+    code: https://github.com/suil-hwang/neural-astar-heat-method
+    image: ./assets/img/neural-astar-heat-method.gif
