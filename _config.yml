@@ -1,4 +1,4 @@
-# Basic Information 
+# Basic Information
 title: Suil Hwang
 position: Master's Student
 affiliation: Hanyang University
@@ -11,16 +11,16 @@ keywords: Suil Hwang
 description: Suil Hwang's Personal Website.
 canonical: https://suil-hwang.github.io/
 
-# Links 
+# Links
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.com/
 cv_link: assets/files/SuilHwangCV.pdf
 github_link: https://github.com/suil-hwang
-linkedin: https://www.linkedin.com/suilhwang
+linkedin: https://www.linkedin.com/in/suilhwang
 twitter: https://twitter.com/suil_hwang
 
-# Images (e.g., your profile picture and your website's favicon) 
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
+# Images (e.g., your profile picture and your website's favicon)
+# "favicon" and "favicon_dark" are used for the light and dark modes, respectively.
 avatar: ./assets/img/suil_hwang.png
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon.png
