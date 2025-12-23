@@ -1,6 +1,6 @@
 main:
   - title: "GS-Reg: Interactive Registration for 3D Gaussian Splatting"
-    description: Merge multiple 3D Gaussian Splatting scenes with interactive keypoint alignment and ICP.
+    description: Interactive registration framework enabling precise alignment and merging of multiple 3D Gaussian Splatting scenes via user-guided interaction and ICP refinement.
     code: https://github.com/suil-hwang/GS-Reg
     image: ./assets/img/GS-Reg.png
   - title: "Neural A* with Heat Method: Geometric Guidance for Path Planning"
