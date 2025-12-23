@@ -80,3 +80,5 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
 .publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+
+@media screen and (min-width: 480px) { .pub-row .col-sm-3 { width: 30%; flex: 0 0 30%; max-width: 30%; } .pub-row .col-sm-9 { width: 70%; flex: 0 0 70%; max-width: 70%; } }
