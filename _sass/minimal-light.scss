@@ -103,7 +103,7 @@
 .github span{
   background-color:#000}
 
-email {
+.email {
     font-size: 14px;
     font-family: "Ubuntu Mono";
 }
@@ -137,23 +137,23 @@ email {
 
 .icon-button:hover .icon-twitter,.icon-button:hover .icon-facebook,.icon-button:hover .icon-github,.icon-button:hover .icon-linkedin{color:white}
 
-autocolor{
+.autocolor{
   color:#595959;
 }
 
-lightonly {
+.lightonly {
   visibility: visible;
 }
 
-darkonly {
+.darkonly {
   visibility: hidden;
 }
 
-education {
+.education {
     font-weight: 500;
     font-size: 115%;
   }
-papertitle {
+.papertitle {
     font-weight: 600;
     font-size: 100%;
   }
@@ -164,19 +164,19 @@ papertitle {
         color: #dadbdf;
     }
 
-    autocolor{
+    .autocolor{
       color:#dadbdf;
     }
 
-    lightonly {
+    .lightonly {
       visibility: hidden;
     }
 
-    darkonly {
+    .darkonly {
       visibility: visible;
     }
 
-    papertitle {
+    .papertitle {
     color:#eeeff0;
     }
 

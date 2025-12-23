@@ -56,3 +56,8 @@ exclude:
   - LICENSE
   - minimal-light.gemspec
   - html_source_file/
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
