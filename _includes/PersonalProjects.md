@@ -7,9 +7,9 @@
 
 <li>
 <div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px; margin-bottom: 15px;">
     {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100%; height: auto; object-fit: cover;">
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="max-width: 200px; width: 100%; height: auto; object-fit: cover; display: block; margin: 0 auto;">
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
