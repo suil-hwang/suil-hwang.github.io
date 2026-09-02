@@ -4,21 +4,21 @@ layout: homepage
 
 ## About Me
 
-I am a Master's student in [Computer Science and Engineering](http://cse.hanyang.ac.kr/eng/) at [Hanyang University](https://www.hanyang.ac.kr/web/eng), advised by Q Youn Hong. 
+I am a MS/PhD student in [Computer Science and Engineering](http://cse.hanyang.ac.kr/eng/) at [Hanyang University](https://www.hanyang.ac.kr/web/eng), advised by Q Youn Hong.
 My research interests include Computer Graphics and Geometry Processing.
 
-<!-- ## Research Interets
+<!-- ## Research Interests
 
 - Computer Graphics
-- Geomety Processing -->
+- Geometry Processing -->
 
 ## News
 
-- **[Mar. 2025]** I Started Master's Program at Hanyang University. (Advisor: Prof. Q Youn Hong)
+- **[Sep. 2026]** One paper has been accepted to Pacific Graphics 2026.
+- **[Mar. 2025]** I Started MS/PhD Program at Hanyang University. (Advisor: Prof. Q Youn Hong)
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/PersonalProjects.md %}
+<!-- {% include_relative _includes/PersonalProjects.md %} -->
 
 <!-- {% include_relative _includes/services.md %} -->
-

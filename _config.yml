@@ -1,61 +1,51 @@
 # Basic Information
 title: Suil Hwang
-position: Master's Student
+position: MS/PhD Student
 affiliation: Hanyang University
 affiliation_link: https://www.hanyang.ac.kr/web/eng
 email: av600md@hanyang.ac.kr
+lang: en-US
 
-# Search Engine Optimization (SEO)
-# The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Suil Hwang
+# Search Engine Optimization (SEO) & Social Sharing
+url: "https://suil-hwang.github.io"
 description: Suil Hwang's Personal Website.
-canonical: https://suil-hwang.github.io/
+author:
+  name: Suil Hwang
+  email: av600md@hanyang.ac.kr
+  twitter: suil_hwang
 
-# Links
-# If you don't need one of them, you may delete the corresponding line.
+# Profile & Social Links
 google_scholar: https://scholar.google.com/
 cv_link: assets/files/SuilHwangCV.pdf
 github_link: https://github.com/suil-hwang
 linkedin: https://www.linkedin.com/in/suilhwang
 twitter: https://twitter.com/suil_hwang
 
-# Images (e.g., your profile picture and your website's favicon)
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively.
-avatar: ./assets/img/suil_hwang.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon.png
+# Images (Profile picture and Favicon)
+avatar: assets/img/suil_hwang.png
+favicon: assets/img/favicon.png
+favicon_dark: assets/img/favicon.png
 
-# Footnote
-# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
+# Theme Options
 enable_footnote: true
-
-# Auto Dark Mode
-# You may use the option to disable the automatic dark theme
 auto_dark_mode: true
-
-# Font
-# You can use this option to choose between Serif or Sans Serif fonts.
 font: "Serif" # or "Sans Serif"
 
 # Google Analytics ID
-# Please remove this if you don't use Google Analytics
 google_analytics: G-1ERFJTSCW3
 
-# Use this project as a remote theme for GitHub Pages
-# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-remote_theme: yaoyao-liu/minimal-light
+# Sass / SCSS Configuration (Enable Production Minification)
+sass:
+  style: compressed
 
-# The following files will be removed from the generated website.
+# Exclude from Site Generation
 exclude:
   - Gemfile
   - Gemfile.lock
-  - README.md
-  - README_zh_Hans.md
-  - README_zh_Hant.md
-  - README_de.md
   - LICENSE
-  - minimal-light.gemspec
-  - html_source_file/
+  - README.md
+  - vendor
+  - .serena
 
 # Plugins
 plugins:

@@ -1,64 +1,38 @@
-;(function(mod){
-function collectLinks() {
-  return Array.prototype.slice.apply(
-    document.head.querySelectorAll('link[rel*="icon"]')
-  )
-}
+(() => {
+  'use strict';
 
-function applyLink(source, target) {
-  target.setAttribute('type', source.getAttribute('type'))
-  target.setAttribute('href', source.getAttribute('href'))
-}
+  const initFaviconSwitcher = () => {
+    const matcher = window.matchMedia?.('(prefers-color-scheme: dark)');
+    if (!matcher) return;
 
-// eslint-disable-next-line no-unused-vars
-function initSwitcher(delay) {
-  // Exit if media queries aren't supported
-  if (typeof window.matchMedia !== 'function') {
-    return function noop() {}
-  }
+    const darkLink = document.querySelector('link[rel*="icon"][media*="dark"]');
+    const lightLink = document.querySelector('link[rel*="icon"][media*="light"]');
+    if (!darkLink || !lightLink) return;
 
-  var links = collectLinks()
-  var current = document.createElement('link')
-  var prevMatch
+    let activeIcon = document.querySelector('link[data-dynamic-favicon="true"]');
+    if (!activeIcon) {
+      activeIcon = document.createElement('link');
+      activeIcon.setAttribute('rel', 'shortcut icon');
+      activeIcon.setAttribute('data-dynamic-favicon', 'true');
+      document.head.appendChild(activeIcon);
+    }
 
-  current.setAttribute('rel', 'shortcut icon')
-  document.head.appendChild(current)
-
-  function faviconApplyLoop() {
-    var matched
-
-    links.forEach(function(link) {
-      if (window.matchMedia(link.media).matches) {
-        matched = link
+    const applyFavicon = (isDark) => {
+      const source = isDark ? darkLink : lightLink;
+      const href = source?.getAttribute('href');
+      if (href && activeIcon) {
+        activeIcon.setAttribute('type', source.getAttribute('type') || 'image/png');
+        activeIcon.setAttribute('href', href);
       }
-    })
+    };
 
-    if (! matched) {
-      return
-    }
+    applyFavicon(matcher.matches);
+    matcher.addEventListener('change', (e) => applyFavicon(e.matches));
+  };
 
-    if (matched.media !== prevMatch) {
-      prevMatch = matched.media
-      applyLink(matched, current)
-    }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFaviconSwitcher);
+  } else {
+    initFaviconSwitcher();
   }
-
-  var intervalId = setInterval(faviconApplyLoop, delay || 300)
-
-  function unsubscribe() {
-    clearInterval(intervalId)
-    links.forEach(function(link) {
-      document.head.appendChild(link)
-    })
-  }
-
-  faviconApplyLoop()
-  links.forEach(function(link) {
-    document.head.removeChild(link)
-  })
-
-  return unsubscribe
-}
-
-initSwitcher()
-})()
+})();
