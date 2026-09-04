@@ -14,7 +14,7 @@
   text-align: center;
   font-size: 1.15rem;
   line-height: 2.5rem;
-  margin-right: 1rem;
+  margin-right: 5px;
   transition:
     transform 0.2s ease,
     background-color 0.2s ease,
@@ -23,6 +23,14 @@
 
 .social-icons a:last-child {
   margin-right: 0;
+}
+
+.social-icons .ai-google-scholar {
+  font-size: 1.2rem;
+}
+
+.social-icons .ai-cv {
+  font-size: 1.3rem;
 }
 
 .social-icons a:hover {
@@ -42,6 +50,15 @@
 
 .position {
   font-size: 1.1rem;
+  margin-bottom: 1.5rem; /* one text line, matches the former <br> spacer */
+}
+
+.social-icons {
+  margin: 1.5rem 0; /* blank line above and below, as the former <br><br> / <br> gave */
+}
+
+.footnote {
+  padding-top: 1.5rem; /* one text line above the theme credit, as the former <br> gave */
 }
 
 .lightonly {

@@ -17,8 +17,8 @@ My research interests include Computer Graphics and Geometry Processing.
 - **[Sep. 2026]** One paper has been accepted to Pacific Graphics 2026.
 - **[Mar. 2025]** I Started MS/PhD Program at Hanyang University. (Advisor: Prof. Q Youn Hong)
 
-{% include_relative _includes/publications.md %}
+{% include publications.md %}
 
-<!-- {% include_relative _includes/PersonalProjects.md %} -->
-
-<!-- {% include_relative _includes/services.md %} -->
+{% comment %}Disabled until the teaser overflow in the project list is fixed. Liquid inside an HTML comment still runs, so a Liquid comment keeps it out of the built page.
+{% include PersonalProjects.md %}
+{% endcomment %}

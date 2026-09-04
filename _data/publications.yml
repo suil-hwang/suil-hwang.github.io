@@ -3,8 +3,8 @@ main:
     authors: <strong>Suil Hwang</strong>, Q Youn Hong
     conference_short: MITA
     conference: The 21st International Conference on Multimedia Information Technology and Applications <strong>(MITA)</strong>, 2025.
-    pdf: ./assets/files/MITA2025_Island-Preserving_UV_Transfer_for_Simplified_Meshes.pdf
+    pdf: assets/files/MITA2025_Island-Preserving_UV_Transfer_for_Simplified_Meshes.pdf
     code: https://github.com/suil-hwang/island-preserving-uv-transfer
     #bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/Island-Preserving-UV-Transfer.png
+    image: assets/img/Island-Preserving-UV-Transfer.png
     #notes: Submitted

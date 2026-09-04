@@ -1,3 +1,4 @@
+/* --- Publication / project list (light palette) --- */
 :root {
   --global-bg-color: #ffffff;
   --global-text-color: #000000;
@@ -27,6 +28,10 @@
 
 .publications {
   margin-top: 1.5rem;
+}
+
+.publications-heading {
+  margin: 2px 0 -15px;
 }
 
 .publications ol.bibliography {
@@ -71,7 +76,12 @@
   padding: 0.15rem 0.6rem;
   border-radius: 4px;
   text-decoration: none;
+  font-size: 12px;
   transition: all 0.15s ease-in-out;
+}
+
+.publications ol.bibliography li .links .pub-note {
+  color: #e74d3c;
 }
 
 .publications ol.bibliography li .links a.btn:hover {
@@ -90,6 +100,16 @@
   transition:
     box-shadow 0.2s ease,
     transform 0.2s ease;
+}
+
+.pub-row .col-sm-3 {
+  position: relative;
+  padding: 0 15px;
+}
+
+.pub-row .col-sm-9 {
+  position: relative;
+  padding: 0 15px 0 20px;
 }
 
 @media screen and (min-width: 480px) {
