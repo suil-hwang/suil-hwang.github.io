@@ -1,5 +1,7 @@
 ---
 layout: homepage
+# &#124; is a "|". jekyll-seo-tag runs the title through Markdown, and a bare pipe would be parsed as a table row.
+title: "Suil Hwang &#124; Hanyang University"
 ---
 
 ## About Me
