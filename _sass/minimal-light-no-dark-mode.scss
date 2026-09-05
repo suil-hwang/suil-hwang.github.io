@@ -158,6 +158,11 @@ p a {
   text-decoration: underline;
 }
 
+#about-me + p a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
 a:focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 3px;
