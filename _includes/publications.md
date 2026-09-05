@@ -17,10 +17,9 @@
   </div>
   <div class="col-sm-9">
       <div class="title">
-        {% if link.pdf %}
-        <a href="{{ link.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ link.title }}</a>
-        {% elsif link.page %}
-        <a href="{{ link.page }}" target="_blank" rel="noopener noreferrer">{{ link.title }}</a>
+        {% assign title_link = link.title_link | default: '' | strip %}
+        {% if title_link != '' %}
+        <a href="{{ title_link | relative_url | escape }}" target="_blank" rel="noopener noreferrer">{{ link.title }}</a>
         {% else %}
         {{ link.title }}
         {% endif %}

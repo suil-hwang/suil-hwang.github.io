@@ -1,10 +1,14 @@
 main:
+  - title: "Construction of Simple Quadrangulations of the Sphere at Skeletal Joints"
+    authors: <strong>Suil Hwang</strong>, Q Youn Hong
+    conference_short: Pacific Graphics
+    conference: The 34th Pacific Conference on Computer Graphics and Applications <strong>(Pacific Graphics)</strong>, 2026.
+    image: assets/img/Construction of_Simple_Quadrangulations_of_the_Sphere_at_Skeletal_Joints.png
+
   - title: "Island-Preserving UV Transfer for Simplified Meshes"
     authors: <strong>Suil Hwang</strong>, Q Youn Hong
     conference_short: MITA
     conference: The 21st International Conference on Multimedia Information Technology and Applications <strong>(MITA)</strong>, 2025.
     pdf: assets/files/MITA2025_Island-Preserving_UV_Transfer_for_Simplified_Meshes.pdf
     code: https://github.com/suil-hwang/island-preserving-uv-transfer
-    #bibtex: https://bib.yliu.me/MICCAI23.txt
     image: assets/img/Island-Preserving-UV-Transfer.png
-    #notes: Submitted
