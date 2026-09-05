@@ -7,6 +7,10 @@
     --global-theme-color: #{palette.$dark-publication-accent};
   }
 
+  .publications ol.bibliography li .title {
+    color: palette.$dark-heading;
+  }
+
   .publications ol.bibliography li .abbr abbr {
     background-color: palette.$dark-badge;
   }
