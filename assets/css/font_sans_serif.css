@@ -1,7 +1,4 @@
 body {
-  background-color: #fff;
-  padding: 0;
-  margin: 0;
   font:
     15px/1.5 -apple-system,
     BlinkMacSystemFont,
@@ -18,6 +15,4 @@ body {
     "Apple Color Emoji",
     "Segoe UI Emoji",
     "Segoe UI Symbol";
-  color: #595959;
-  font-weight: 400;
 }

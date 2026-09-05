@@ -1,6 +1,5 @@
 _site
 .sass-cache
-Gemfile.lock
 *.gem
 .DS_Store
 .jekyll-cache
@@ -9,3 +8,6 @@ git-update.sh
 .vscode/
 .idea/
 .serena/
+node_modules/
+/tmp/
+/plan.md

@@ -1,26 +1,25 @@
-@import "publications-list-no-dark-mode";
+@use "palette";
+@use "publications-list-no-dark-mode";
 
 /* --- Dark Mode Enhancements --- */
-@media (prefers-color-scheme: dark) {
+@media screen and (prefers-color-scheme: dark) {
   :root {
-    --global-theme-color: rgb(36, 150, 203);
+    --global-theme-color: #{palette.$dark-publication-accent};
   }
-}
 
-@media (prefers-color-scheme: dark) {
+  .publications ol.bibliography li .abbr abbr {
+    background-color: palette.$dark-badge;
+  }
   .publications ol.bibliography li .links a.btn {
-    color: #e0e0e0;
-    border-color: #555566;
+    color: palette.$dark-button-text;
+    border-color: palette.$dark-button-border;
   }
 
   .publications ol.bibliography li .links a.btn:hover {
     color: var(--global-theme-color);
     border-color: var(--global-theme-color);
-    background-color: rgba(36, 150, 203, 0.15);
+    background-color: rgba(palette.$dark-publication-accent, 0.15);
   }
-}
-
-@media (prefers-color-scheme: dark) {
   .publications ol.bibliography li .teaser {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
   }

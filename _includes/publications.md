@@ -9,7 +9,7 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr">
     {% if link.image %} 
-    <img src="{{ link.image | relative_url }}" alt="{{ link.title }} teaser" class="teaser img-fluid z-depth-1">
+    <img src="{{ link.image | relative_url }}" alt="{{ link.title }} teaser" class="teaser">
     {% if link.conference_short %} 
     <abbr class="badge">{{ link.conference_short }}</abbr>
     {% endif %}
@@ -29,16 +29,16 @@
       <div class="periodical"><em>{{ link.conference }}</em></div>
     <div class="links">
       {% if link.pdf %} 
-      <a href="{{ link.pdf | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+      <a href="{{ link.pdf | relative_url }}" class="btn" target="_blank" rel="noopener noreferrer">PDF</a>
       {% endif %}
       {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+      <a href="{{ link.code }}" class="btn" target="_blank" rel="noopener noreferrer">Code</a>
       {% endif %}
       {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Project Page</a>
+      <a href="{{ link.page }}" class="btn" target="_blank" rel="noopener noreferrer">Project Page</a>
       {% endif %}
       {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">BibTex</a>
+      <a href="{{ link.bibtex }}" class="btn" target="_blank" rel="noopener noreferrer">BibTex</a>
       {% endif %}
       {% if link.notes %} 
       <strong> <i class="pub-note">{{ link.notes }}</i></strong>

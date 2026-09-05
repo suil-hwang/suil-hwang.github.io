@@ -2,4 +2,4 @@
 ---
 
 // Publication list stylesheet (compiles to assets/css/publications.css with auto dark mode)
-@import "publications-list";
+@use "publications-list";

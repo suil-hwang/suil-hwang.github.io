@@ -1,7 +1,9 @@
 source "https://rubygems.org"
 
+ruby file: ".ruby-version"
+
 # Jekyll Core (v4.4.x)
-gem "jekyll", "~> 4.4"
+gem "jekyll", "~> 4.4.1"
 
 # Local web server for Ruby 3.0+
 gem "webrick", "~> 1.9"

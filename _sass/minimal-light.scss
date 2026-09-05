@@ -1,22 +1,15 @@
-@import "minimal-light-no-dark-mode";
+@use "palette";
+@use "minimal-light-no-dark-mode";
 
 /* --- Dark Mode Enhancements --- */
-@media (prefers-color-scheme: dark) {
+@media screen and (prefers-color-scheme: dark) {
   body {
-    background-color: #20212b;
-    color: #dadbdf;
+    background-color: palette.$dark-background;
+    color: palette.$dark-text;
   }
 
   .autocolor {
-    color: #dadbdf;
-  }
-
-  .lightonly {
-    visibility: hidden;
-  }
-
-  .darkonly {
-    visibility: visible;
+    color: palette.$dark-text;
   }
 
   h1,
@@ -24,64 +17,53 @@
   h3,
   h4,
   h5,
-  h6 {
-    color: rgb(62, 183, 240);
+  h6,
+  th,
+  dt,
+  a,
+  .social-icons a {
+    color: palette.$dark-heading;
   }
 
   strong {
-    color: #eeeff0;
-  }
-
-  th,
-  dt {
-    color: rgb(62, 183, 240);
-  }
-
-  a {
-    color: rgb(62, 183, 240);
+    color: palette.$dark-strong;
   }
 
   a:hover {
-    color: #8cd6ff;
-  }
-
-  .social-icons a {
-    color: #3eb7f0 !important;
+    color: palette.$dark-link-hover;
   }
 
   .social-icons a:hover {
-    background-color: #2e303e;
-    color: #ffffff !important;
+    background-color: palette.$dark-social-hover;
+    color: palette.$white;
   }
 
   code,
   pre {
-    color: #dadbdf;
+    color: palette.$dark-text;
   }
 
   pre {
-    background: #171821;
-    border-color: #353644;
+    background: palette.$dark-code-background;
+    border-color: palette.$dark-border;
   }
 
   hr {
-    background: #353644;
+    background: palette.$dark-border;
   }
 
   blockquote {
-    border-left-color: rgb(36, 150, 203);
+    border-left-color: palette.$dark-publication-accent;
   }
 
   th,
   td {
-    border-bottom-color: #353644;
+    border-bottom-color: palette.$dark-border;
   }
 }
 
-@media print, screen and (max-width: 960px) {
-  @media (prefers-color-scheme: dark) {
-    section {
-      border-top-color: #353644;
-    }
+@media screen and (max-width: 960px) and (prefers-color-scheme: dark) {
+  main {
+    border-top-color: palette.$dark-border;
   }
 }

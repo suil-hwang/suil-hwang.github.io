@@ -37,6 +37,7 @@ google_analytics: G-1ERFJTSCW3
 # Sass / SCSS Configuration (Enable Production Minification)
 sass:
   style: compressed
+  fatal_deprecations: [import]
 
 # Exclude from Site Generation
 exclude:
@@ -46,6 +47,8 @@ exclude:
   - README.md
   - vendor
   - .serena
+  - plan.md
+  - tmp
 
 # Plugins
 plugins:
