@@ -4,7 +4,8 @@ main:
     authors: <strong>Suil Hwang</strong>, Q Youn Hong
     conference_short: Pacific Graphics
     conference: The 34th Pacific Conference on Computer Graphics and Applications <strong>(Pacific Graphics)</strong>, 2026.
-    pdf: https://diglib.eg.org/bitstreams/7969817d-542e-40b1-9e7e-1b41923ac352/download
+    pdf: https://arxiv.org/abs/2610.17803
+    code: https://github.com/suil-hwang/SQS
     image: assets/publications/2026-pg-skeletal-joint-quadrangulation/teaser.png
 
   - title: "Island-Preserving UV Transfer for Simplified Meshes"
