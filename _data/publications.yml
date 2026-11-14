@@ -1,10 +1,10 @@
 main:
   - title: "Construction of Simple Quadrangulations of the Sphere at Skeletal Joints"
-    title_link: https://diglib.eg.org/handle/10.1111/cgf70634
+    title_link: https://doi.org/10.1111/cgf.70634
     authors: <strong>Suil Hwang</strong>, Q Youn Hong
     conference_short: Pacific Graphics
     conference: The 34th Pacific Conference on Computer Graphics and Applications <strong>(Pacific Graphics)</strong>, 2026.
-    pdf: https://arxiv.org/abs/2610.17803
+    arxiv: https://arxiv.org/abs/2610.17803
     code: https://github.com/suil-hwang/SQS
     image: assets/publications/2026-pg-skeletal-joint-quadrangulation/teaser.png
 

@@ -30,6 +30,9 @@
       {% if link.pdf %} 
       <a href="{{ link.pdf | relative_url }}" class="btn" target="_blank" rel="noopener noreferrer">PDF</a>
       {% endif %}
+      {% if link.arxiv %} 
+      <a href="{{ link.arxiv }}" class="btn" target="_blank" rel="noopener noreferrer">arXiv</a>
+      {% endif %}
       {% if link.code %} 
       <a href="{{ link.code }}" class="btn" target="_blank" rel="noopener noreferrer">Code</a>
       {% endif %}
